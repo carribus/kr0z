@@ -1,0 +1,12 @@
+{
+    "name": "kr0z-server",
+    "description": "The server for the kr0z game",
+    "author": "Peter Mares",
+    "dependencies": {
+        "socket.io": ">= 0.9.0"
+    },
+    "engine": "node >= 0.8.0",
+    "scripts": {
+        "start": "node kr0z-server.js"
+    }
+}

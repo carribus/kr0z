@@ -1,0 +1,24 @@
+.logitem {
+    margin: 0px;
+    padding: 0px;
+    font-family: Courier New;
+    font-size: 12px;
+}
+
+.INFO {
+    margin: 0px;
+    padding: 0px;
+    color: #d3d3d3;
+}
+
+.WARN {
+    margin: 0px;
+    padding: 0px;
+    color: orange;
+}
+
+.ERROR {
+    margin: 0px;
+    padding: 0px;
+    color: red;
+}

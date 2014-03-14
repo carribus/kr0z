@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    color: #32cd32;
+    overflow: hidden;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
+h3 {
+    color: #404040;
+    margin: 0px;
+    padding: 0px;
+}
+
+#log_container {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    border: 2px black solid;
+    background-color: #696969;
+    opacity: 0.75;
+    color: #6b8e23;
+    text-align: left;
+    overflow: scroll;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#game_container {
+    background-color: black;
+/*    background-color: #122446;*/
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#console_log {
+    background-color: black;
+    color: #7cfc00;
+    width: 100%;
+    height: 90%;
+    display: block;
+    overflow-y: auto;
+}
+
+.align_bottom {
+    vertical-align: bottom;
+}
+
+div.prompt {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+    background-color: black;
+    color: #7cfc00;
+    padding: 0 0 0 15px;
+    margin-left: 5px;
+    clear: none;
+    vertical-align: middle;
+}
+
+div.prompt::before {
+    content: ">";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    color: #7cfc00;
+}
+
+#console_input {
+    position: absolute;
+    background-color: #080808;
+    color: #7cfc00;
+    border: 0px;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+
+.notification {
+    color: #ffff00;
+}
